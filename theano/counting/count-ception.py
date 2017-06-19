@@ -40,12 +40,6 @@ from os import walk
 print "theano",theano.version.full_version
 print "lasagne",lasagne.__version__
 
-
-# In[2]:
-
-get_ipython().magic(u'matplotlib inline')
-
-
 # In[3]:
 
 if len(sys.argv) == 3 or sys.argv[0] == "jupyter": #on jupyter
